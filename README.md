@@ -1,7 +1,7 @@
 # KamiLimu
 # KamiLimu Month Three - Creative Showcase
 
-This project is a creative frontend website designed to showcase my learnings from **Month Three of the KamiLimu mentorship program**. It includes interactive animations, page transitions, and stylish visuals built using HTML, CSS, and JavaScript.
+This is a creative frontend website designed to showcase my learnings from **Month Three of the KamiLimu mentorship program**. It includes animations, transitions and visuals built using HTML, CSS, and JavaScript.
 
 ## Features
 
@@ -33,3 +33,4 @@ KamiLimu/
 │ └── hero-image.png
 └── README.md
 
+> You can view the live version [here](https://nduta-e.github.io/KamiLimu/)
