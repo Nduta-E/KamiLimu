@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ICT Track Sessions - KamiLimu</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="hero">
+    <img src="images/hero-image.png" alt="Hero Left" class="hero-img left-img" />
+    <div class="hero-content">
+    <h1 class="fancy-title"><em>ICT Track Sessions</em></h1>
+    <p class="subtitle" id="typing-text">Cybersecurity Track</p>
+    </div>
+    <img src="images/hero-image.png" alt="Hero Right" class="hero-img right-img" />
+  </header>
+
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Academic Excellence</a></li>
+      <li><a href="version.html">Version Control</a></li>
+      <li><a href="interview.html">Interview Prep</a></li>
+      <li><a href="ict.html">ICT Track Sessions</a></li>
+    </ul>
+  </nav>
+
+  <main>
+    <section class="section">
+        <h2>SESSION 1 - Overview of OverTheWire and UnderTheWire</h2>
+      <p>Fantastic war game platforms that teach hands-on Linux, networking, and Windows command line skills in a Capture The Flag (CTF)-like format.</p>
+      <h3>From OverTheWire (Linux) skills reinforced:</h3>
+      <ul>
+        <li>Terminal basics - <code>ls</code>, <code>cd</code> to list files and change directories</li>
+        <li>Reading/manipulating files – <code>cat</code>, <code>file</code></li>
+        <li>Recognizing file encoding – Base64</li>
+        <li>Dealing with special characters – <code>./-filename</code></li>
+        <li>SSH usage – to connect remotely</li>
+      </ul>
+      <h3>From UnderTheWire (PowerShell) skills reinforced:</h3>
+      <ul>
+        <li>PowerShell scripting</li>
+        <li>Windows file system and registry</li>
+        <li>Object-oriented shell concepts</li>
+        <li>String manipulation</li>
+        <li>System enumeration</li>
+      </ul>
+    
+      <h2>SESSION 2 - Networking Fundamentals</h2>
+      <h3>1. DNS (Domain Name System)</h3>
+      <p>DNS translates human-readable domain names (like google.com) into IP addresses (like 142.250.190.14).</p>
+      <ul>
+        <li>Pinging is used to test connectivity and resolve hostnames to IP addresses: <code>ping google.com</code></li>
+        <li>View DNS server configuration on Linux: <code>cat /etc/resolv.conf</code></li>
+        <li>BGP Tools (Border Gateway Protocol): Check routing paths and DNS propagation.</li>
+        <li>DNS as attack/survey vectors: Subdomain enumeration, zone transfers, DNS poisoning/spoofing</li>
+      </ul>
+      <h3>2. OSI Model (Open Systems Interconnection)</h3>
+      <p>A 7-layer model explaining how data flows in a network:</p>
+      <ul>
+        <li>1. Physical – Hardware (cables, NICs, signals)</li>
+        <li>2. Data Link – MAC addressing, switches</li>
+        <li>3. Network – IP addressing, routing</li>
+        <li>4. Transport – TCP/UDP</li>
+        <li>5. Session – Controls connections</li>
+        <li>6. Presentation – Data formatting, encryption</li>
+        <li>7. Application – User interfaces (HTTP, DNS)</li>
+      </ul>
+      <p>TCP/IP Model simplifies to 4 layers: Link, Internet, Transport, Application.</p>
+
+      <h3>3. Pyramid of Pain</h3>
+      <p>A cybersecurity model showing difficulty of defending against different indicators of compromise (IOCs).</p>
+      <ul>
+        <li>Hash Values – Easily changed</li>
+        <li>IP Addresses – Switched frequently</li>
+        <li>Domain Names – Slightly harder to change</li>
+        <li>Network/Host Artifacts – Patterns, configs</li>
+        <li>Tools – Specific attack tools</li>
+        <li>TTPs – Attacker behavior & strategy</li>
+      </ul>
+
+      <h3>4. Active Directory</h3>
+      <ul>
+        <li>User Authentication: verifies usernames and passwords</li>
+        <li>Resource Management: controls access</li>
+        <li>Group Policy: pushes security settings</li>
+      </ul>
+    
+      <h2>SESSION 3 - Offensive and Defensive Security</h2>
+      <h3>1. Offensive Security</h3>
+      <p>Simulating attacks to identify vulnerabilities.</p>
+      <ol>
+        <li>Reconnaissance – whois, nslookup</li>
+        <li>Scanning & Enumeration – nmap, netcat</li>
+        <li>Exploitation – Metasploit</li>
+        <li>Post-Exploitation – mimikatz</li>
+      </ol>
+
+      <h3>2. Defensive Security</h3>
+      <ol>
+        <li>Monitoring – SIEMs like Splunk</li>
+        <li>Log Analysis – Sysmon</li>
+        <li>Detection – IDS/IPS like Snort</li>
+        <li>Incident Response – Playbooks, forensics</li>
+        <li>Threat Intelligence – CTI platforms, MITRE ATT&CK</li>
+      </ol>
+    
+      <h2>SESSION 4 - Governance, Risk and Compliance</h2>
+      <ul>
+        <li><strong>Governance:</strong> Leadership, policies, and decision-making processes</li>
+        <li><strong>Risk:</strong> Potential events with negative impact</li>
+        <li><strong>Compliance:</strong> Adherence to laws, regulations, and standards</li>
+      </ul>
+
+      <h3>Key Frameworks:</h3>
+      <ul>
+        <li>ISO27001 – Information security management</li>
+        <li>COBIT – IT governance and business alignment</li>
+        <li>NIST – Cybersecurity framework</li>
+        <li>PCI DSS – Credit/debit card security</li>
+        <li>SWIFT – Financial transaction integrity</li>
+        <li>Cloud/AI/Crypto – Emerging governance standards</li>
+      </ul>
+
+      <h3>GRC Assessment Methodology:</h3>
+      <ul>
+        <li>Assessment Questionnaires and Interviews</li>
+        <li>Evidence Gathering & Validation</li>
+        <li>Reporting – status, risks, control gaps, corrective actions</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Made by Esther Mwaura | KamiLimu 2025</p>
+  </footer>
+</body>
+<script src="script.js"></script>
+
+</html>
+
+      
